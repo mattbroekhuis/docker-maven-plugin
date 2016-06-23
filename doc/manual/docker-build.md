@@ -322,7 +322,7 @@ For example,
 ```
 
 will add the created artifact with the name `${project.build.finalName}.${artifact.extension}`
-and all jar dependencies in the the `baseDir` (which is `/maven` by default).
+and all jar dependencies in the the `basedir` (which is `/maven` by default).
 
 All declared files end up in the configured `basedir` (or `/maven`
 by default) in the created image.
